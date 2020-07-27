@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+
+@media (max-width: 992px) {
+
+body, html {
+    height: 100%;
+    font-size: 18px;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    font-size: 3rem;
+    color: hsl(230, 29%, 20%);
+}
+
+h6 {
+    font-family: 'Barlow';
+    font-weight: 400;
+    color: hsl(230, 11%, 40%);
+    font-size: 1.35rem;
+}
+
+.backgrounds {
+    position: absolute;
+    background-color: hsl(207, 33%, 95%);
+    height: 500px;
+    width: 50%;
+    margin-left: 50%;
+    border-bottom-left-radius: 70px;
+    z-index: -1;
+}
+.nav-link {
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    color: hsl(230, 29%, 20%);
+    font-size: 1.2rem;
+}
+
+.collapse {
+    -webkit-box-shadow: -1px 0px 16px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 16px -5px rgba(0,0,0,0.75);
+box-shadow: -1px 0px 16px -5px rgba(0,0,0,0.75);
+}
+
+.border {
+    margin-top: 20px;
+    width: 70%;
+}
+
+.image {
+    position: relative;
+    margin-top: 50px;
+    height: 330px;
+    right: 20px;
+}
+
+#NEW {
+    margin-left: 10px;
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    background-color: hsl(230, 29%, 20%);
+    border: 0;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+#MONO {
+    background-color: transparent;
+    border: 0;
+    font-family: 'Barlow Condensed';
+    font-family: 400;
+    color: hsl(231, 7%, 65%);
+    letter-spacing: 5px;
+    font-size: 1.33rem;
+    margin-left: 10px;
+}
+
+#DEMO {
+    background-color: hsl(0, 100%, 68%);
+    font-family: 'Barlow Condensed';
+    font-weight: 700;
+    letter-spacing: 2px;
+    border: 0;
+    margin-left: 10px;
+}
+
+#PREVIEW {
+    background-color: transparent;
+    border: 0;
+    font-family: 'Barlow Condensed';
+    font-family: 400;
+    color: hsl(231, 7%, 65%);
+    letter-spacing: 5px;
+    font-size: 1.33rem;
+    margin-left: 10px;
+}
+}
+
+@media (min-width: 992px) {
+    body, html {
+        height: 100%;
+        font-size: 18px;
+        overflow-x: hidden;
+    }
+    
+    h1 {
+        font-family: 'Barlow Condensed';
+        font-weight: 700;
+        font-size: 3rem;
+        color: hsl(230, 29%, 20%);
+    }
+    
+    h6 {
+        font-family: 'Barlow';
+        font-weight: 400;
+        color: hsl(230, 11%, 40%);
+        font-size: 1.1rem;
+    }
+    
+    .backgrounds {
+        position: absolute;
+        background-color: hsl(207, 33%, 95%);
+        height: 500px;
+        width: 50%;
+        margin-left: 50%;
+        border-bottom-left-radius: 70px;
+        z-index: -1;
+    }
+    .nav-link {
+        font-family: 'Barlow Condensed';
+        font-weight: 700;
+        color: hsl(230, 29%, 20%) !important;
+        font-size: 1.2rem;
+        
+    }
+    
+    .image {
+        position: absolute;
+        margin-top: 50px;
+        left: 650px;
+        height: 500px;
+        
+    }
+    
+    #NEW {
+        font-family: 'Barlow Condensed';
+        font-weight: 700;
+        background-color: hsl(230, 29%, 20%);
+        border: 0;
+        border-radius: 20px;
+        letter-spacing: 2px;
+        font-size: 18px;
+    }
+    
+    #MONO {
+        background-color: transparent;
+        border: 0;
+        font-family: 'Barlow Condensed';
+        font-family: 400;
+        color: hsl(231, 7%, 65%);
+        letter-spacing: 5px;
+        font-size: 1.33rem;
+        margin-left: 10px;
+    }
+    
+    #DEMO {
+        background-color: hsl(0, 100%, 68%);
+        font-family: 'Barlow Condensed';
+        font-weight: 700;
+        letter-spacing: 2px;
+        border: 0;
+        margin-left: 10px;
+        margin-top: 50px !important;
+    }
+    
+    #PREVIEW {
+        background-color: transparent;
+        border: 0;
+        font-family: 'Barlow Condensed';
+        font-family: 400;
+        color: hsl(231, 7%, 65%);
+        letter-spacing: 5px;
+        font-size: 1.33rem;
+        margin-left: 10px;
+        margin-top: 50px !important;
+    }
+
+    #navbarNav {
+        background-color: transparent !important;
+        margin-left: 320px !important;
+    }
+
+    #LOGIN {
+        color: hsl(231, 7%, 65%) !important;
+        font-family: 'Barlow Condensed';
+        font-weight: 400;
+        margin-left: 60px;
+        
+    }
+}
+
+
+
